@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Funds Distribution Token</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./js/truffle-contract.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+
+    <script type="text/javascript" src = "js/app.js"></script>
+
+
+  </head>
+
+  <body>
+
+
+    <h1 align="center">Dividend Token</h1>
+    <br>
+    <h3 align="center">Please refresh the page after each action.</h3>
+
+    <div id = "user-dashboard" class="dashboard">
+
+      <span><h3>User Dashboard</h3></span>
+
+      <div id="wallet_display">
+        <span>Current wallet: </span>
+        <span id ="account">
+      </div>
+
+      <div id="eth_balance_display">
+        <span>Current ETH balance: </span>
+        <span id = "account_balance">
+      </div>
+
+      <div id="status_display">
+        <span>Account status: </span>
+        <span id ="account_status"></span>
+      </div>
+
+      <br>
+
+      <div id = "contract-address-display">
+        <span>Contract address: </span>
+        <span id = "contract-address"></span>
+      </div>
+
+      <div id = "token-supply-display">
+        <span>Total supply of tokens: </span>
+        <span id = "token-supply"></span>
+      </div>
+
+      <div id = "user-token-count-display">
+        <span>Number of tokens held in this wallet: </span>
+        <span id = "user-token-count"></span>
+      </div>
+
+      <div id = "contract-funds-display">
+        <span>ETH balance in token contract: </span>
+        <span id = "contract-funds-balance"></span>
+      </div>
+
+      <div id="dividend-display">
+        <span>Dividends unclaimed: </span>
+        <span id="dividend-balance"></span>
+      </div>
+
+      <div id="claim-dividends-section">
+        <button type="button" id="btn-claim-dividends">Claim Dividends</button>
+      </div>
+
+
+    </div>
+
+    <div id = "minter-dashboard" class = "dashboard">
+
+      <div>
+
+        <h3>Minter Dashboard</h3>
+
+      </div>
+
+      <div>
+
+        <span>Address to mint: </span>
+        <input type="text" size=50 id="mint-token-address">
+
+      </div>
+      
+      <div>
+
+        <span>Number of tokens to mint: </span>
+        <input type="text" size=50 id="mint-token-amount">
+
+      </div>
+
+      <div>
+
+        <button type="button" id="btn-mint-tokens">Mint</button>
+
+      </div>
+
+      <div>
+
+        <span>Address to add as minter: </span>
+        <input type="text" size=50 id="new-minter-address">
+
+      </div>
+      
+      <div>
+
+        <button type="button" id="btn-add-minter">Add Minter</button>
+
+      </div>
+
+      <div>
+
+        <span>Pay ETH to token contract: </span>
+        <input type="text" size=50 id="pay-contract-amount">
+
+      </div>
+
+      <div>
+
+        <button type="button" id="btn-pay-contract">Pay</button>
+
+      </div>
+
+
+    </div>
+
+    
+
+    
+  </body>
+
+</html>
