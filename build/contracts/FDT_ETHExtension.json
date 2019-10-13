@@ -2641,10 +2641,16 @@
       "links": {},
       "address": "0x955a17faE403a09c57c71FfBE7938fb8db6F874a",
       "transactionHash": "0x786fff85cb091259901ad771887a7cdc97be3def28340a301566dddad49e54dc"
+    },
+    "1570973686952": {
+      "events": {},
+      "links": {},
+      "address": "0x97e9259a804b1f7754a80d88846C50fC4f298334",
+      "transactionHash": "0xd48a265f58c548ffbee2998b0feb9479db1bd57ecb2fadded52bcadedfe3b6f4"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-10-09T15:09:31.192Z",
+  "updatedAt": "2019-10-13T13:36:02.427Z",
   "devdoc": {
     "methods": {
       "accumulativeFundsOf(address)": {

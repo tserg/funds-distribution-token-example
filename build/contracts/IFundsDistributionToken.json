@@ -656,7 +656,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-10-09T15:09:30.455Z",
+  "updatedAt": "2019-10-13T13:36:01.259Z",
   "devdoc": {
     "methods": {
       "withdrawFunds()": {

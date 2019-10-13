@@ -234,7 +234,7 @@ App = {
       App.contracts.FDT_ETHExtension.deployed().then(function(instance) {
         FDT_ETHExtensionInstance = instance;
 
-        return FDT_ETHExtensionInstance.dividendBalanceOf(account);
+        return FDT_ETHExtensionInstance.withdrawableFundsOf(account);
       }).then(function(userDividendBalance) {
         console.log(JSON.stringify(userDividendBalance));
         var _userDividendBalance = web3.utils.fromWei(userDividendBalance, "ether");
